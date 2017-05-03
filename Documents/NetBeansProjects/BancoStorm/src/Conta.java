@@ -8,14 +8,15 @@
  *
  * @author Washington
  */
-public class Conta {
+public class Conta { //classe 
     private int numero;
-    private String nome_Cliente;
+    private String nome_Cliente; //atributos da classe
     private float saldo;
 
-    public Conta(){
+    public Conta(){ //construtor default
+        
     }
-    public Conta(int numero,String nome_Cliente,float saldo){
+    public Conta(int numero,String nome_Cliente,float saldo){ //sobrecarga de construtor
         this.numero = numero;
         this.nome_Cliente = nome_Cliente;
         this.saldo = saldo;
@@ -25,11 +26,11 @@ public class Conta {
     
   
     
-    public int getNumero(){
+    public int getNumero(){ // métodos acessor
         return numero;
     }
     
-    public void setNumero(int numero){
+    public void setNumero(int numero){ // método assessor
         this.numero = numero;
         
     
